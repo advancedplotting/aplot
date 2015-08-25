@@ -1,0 +1,2 @@
+|int32_in| |int32_out| **Plot ID/Plot ID Out**
+    Plot identifier.  **Plot ID Out** always contains the same value as **Plot ID**.

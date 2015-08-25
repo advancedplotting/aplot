@@ -1,0 +1,16 @@
+*.lvlps
+*.aliases
+*.pyc
+*.vip
+.DS_Store
+/dist
+/builds
+/python/build
+/python/dist
+/docs/_build
+/util/build
+/util/dist
+/util/*.spec
+/export
+/examples/*.txt
+/tests/output

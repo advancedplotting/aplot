@@ -1,0 +1,2 @@
+|error_in| |error_out| **Error In/Out**
+    Terminals for standard error functionality.

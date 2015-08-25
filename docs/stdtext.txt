@@ -1,0 +1,17 @@
+|uint32_in| **Color**
+    Text color (PlotColor or LabView color).
+    
+|uint32_in| **Background Color**
+    Color of text background (box directly behind the text.)  PlotColor or
+    LabView color.
+    
+|int32_in| **Font Size**
+    Size of text.  Choosing a relative size (Small, Medium, Large, etc.) from
+    the drop-down is recommended.  You can also choose "Other" and specify
+    an absolute font size (in points) manually.
+    
+|enum_in| **Font Style**
+    Style of font (normal, italic, bold).
+    
+|double_in| **Rotation angle**
+    Angle of rotation (about left bottom corner).

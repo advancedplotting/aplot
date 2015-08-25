@@ -1,0 +1,4 @@
+Axis Types
+----------
+
+This VI supports both rectangular and :ref:`polar <guide_polar>` axes.

@@ -1,0 +1,9 @@
+|enum_in| **Style**
+    Line style (solid, dashed, etc.).  Default is to automatically
+    select an appropriate style.
+    
+|uint32_in| **Color**
+    Line color.  May be a PlotColor or LabView color.
+    
+|single_in| **Width**
+    Line width, in font points (1/72 inch).

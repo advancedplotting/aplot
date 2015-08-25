@@ -1,0 +1,17 @@
+|enum_in| **Map**
+    Colormap to use.  See :ref:`guide_colormaps` for more info.
+    
+|double_in| **Value Min**
+    Lower range for colormapped data; values smaller than this will all be
+    plotted with the first color in the colormap.
+    
+|double_in| **Value Max**
+    Upper range for colormapped data; values larger than this will all be
+    plotted with the last color in the colormap.
+    
+|enum_in| **Scaling**
+    Colormap scaling mode.  Currently only linear scaling is supported.
+    
+|bool_in| **Reverse**
+    Flip the colormap; for example, if a map has 0.0 as black and 1.0 as
+    white, this will assign 0.0 as white and 1.0 as black.

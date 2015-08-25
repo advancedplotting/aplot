@@ -1,0 +1,5 @@
+Axis Types
+----------
+
+This VI supports rectangular axes.  Use with :ref:`polar axes <guide_polar>`
+will result in :ref:`error_polar`.

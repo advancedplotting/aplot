@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+<nifamily familyname="Advanced Plotting Toolkit Error Range" displayname="Advanced Plotting Toolkit Error Range">
+</nifamily>
+</nicomment>
+<nierror code="402900">
+Failed to Initialize Plotting Library
+</nierror>
+<nierror code="402901">
+Error in Plotting Library
+</nierror>
+<nierror code="402902">
+Invalid Plot Identifier
+</nierror>
+<nierror code="402903">
+Unrecognized File Extension
+</nierror>
+<nierror code="402904">
+Failed To Save File
+</nierror>
+<nierror code="402905">
+Operation Not Supported For Polar Plot
+</nierror>
+<nierror code="402906">
+Operation Not Supported For Current Axis Scale
+</nierror>
+<nierror code="402907">
+Coordinates Not Regular
+</nierror>
+</nidocument>

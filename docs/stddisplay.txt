@@ -1,0 +1,6 @@
+|double_in| **Alpha**
+    Alpha blending value for this object (0.0 to 1.0).  Default is 1.0
+    (fully opaque).
+    
+|double_in| **Z Order**
+    Stacking order.  Default is chosen based on the object type.

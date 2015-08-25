@@ -1,0 +1,9 @@
+|enum_in| **Style**
+    Type of marker (circle, square, etc.).  Default is to select an appropriate
+    marker.
+    
+|uint32_in| **Color**
+    Marker color.  May be a PlotColor or LabView color.
+    
+|single_in| **Size**
+    Area of marker, in square points.
