@@ -1,4 +1,4 @@
-# Copyright 2014 Heliosphere Research LLC
+# Copyright 2014-2026 open-source contributors
 # All rights reserved.
 
 """

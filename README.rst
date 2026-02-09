@@ -30,6 +30,10 @@ can install it through VIPM (2014 or later).  Read the Tools Network page here:
 
 http://sine.ni.com/nips/cds/view/p/lang/en/nid/213166
 
+Installable artifacts may also be available on GitHub:
+
+https://github.com/advancedplotting/aplot/releases
+
 Developing
 ==========
 
@@ -37,10 +41,19 @@ Here are some basic build instructions to get you started hacking on the
 Toolkit.  The Toolkit can be built with LabVIEW 2013 or later, and VIPM 2014
 free edition.
 
+Please be aware that because the Toolkit was originally developed as a
+commercial product targeting LabVIEW versions as old as 2013-2015, the
+toolchain is somewhat behind the modern state of the art.  Requirements
+needed for building the toolkit itself are pinned in
+environment/requirements.txt, but some experimentation may be required to get
+the build tools themselves (e.g. paver) in good working order.
+
+**Pull requests are welcome for more recent platforms (e.g. Windows 11).**
+
 Important notes
 ---------------
 
-* Windows 7 64-bit required
+* Windows 7 64-bit required (Windows 10 and 11 are likely to work but less tested)
 * Don't open the .vip file until you have run at least one build through paver.
   You will lose the palettes and have to recreate them.  See "Build Procedure"
   below.
@@ -50,10 +63,13 @@ Set up toolchain
 
 * Install Git
 * Use Git to clone the source tree into ``C:\aplot``
-    * Yes, it *must* be ``C:\aplot`` or things won't work
+    * Yes, it *must* be ``C:\aplot`` or things won't work.  This limitation
+      comes from the interface between the build automation and the VIPM
+      packaging machinery; a pre-arranged (hardcoded) path is needed.
 * Install LabVIEW 2013 SP1 or later
 * Install VIPM 2014 or later
-* Install Microsoft HTML Help Workshop 1.3
+* (Optional) Install Microsoft HTML Help Workshop 1.3.  This is needed for
+  embedded context help in older LabVIEW versions.
 * Install Python 2.7 from Python.org, into ``C:\Python27``
     - Ensure that Python.exe and pip.exe are on your path.  This is an option
       in the installer.

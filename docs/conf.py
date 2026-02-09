@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Advanced Plotting Toolkit'
-copyright = u'2014, Heliosphere Research LLC'
+copyright = u'2014-2026 open-source contributors'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
